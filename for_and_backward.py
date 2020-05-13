@@ -57,5 +57,3 @@ dorange_num, dorange = mul_orange_layer.backward(dorange_price)
 dapplenum,dapple = mul_apple_layer.backward(dapple_price)
 
 print(dapple,dapplenum,dorange,dorange_num,dtax)
-
-print('wghaaa')
